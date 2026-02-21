@@ -1,55 +1,111 @@
-# Data Scientist Portfolio
+# Data Scientist – Machine Learning Algorithms
 
-Welcome to my Data Science portfolio! This repository contains a collection of my Machine Learning and Data Science projects, categorized by the core algorithms and techniques used.
-
-## 🚀 Projects Overview
-
-Here is a structured list of all the projects included in this repository. 
-
-### 🟢 Classification
-| Project | Description / Algorithm |
-|---|---|
-| [**KNN Breast Cancer Classification**](./Classification/KNN-Breast-Cancer-Classification) | Cancer prediction using K-Nearest Neighbors (KNN). |
-| [**Random Forest Employee Performance Classifier**](./Classification/RandomForest-Employee-Performance-Classifier) | Employee rating prediction using Random Forest. |
-| [**SVM Digit Predictor**](./Classification/SVM-Digit-Predictor) | Handwritten digit recognition using Support Vector Machines (SVM). |
-| [**Decision Tree Movie Interest Predictor**](./Classification/Decision-Tree-Movie-Interest-Predictor-Classifier) | Movie interest classification using Decision Trees. |
-| [**Decision Tree Pizza Predictor**](./Classification/Decision-Tree-Pizza-Predictor-Classifier) | Pizza sales classification using Decision Trees. |
-| [**XGBoost Milk Quality Classifier**](./Classification/XGBoost-Milk-Quality-Classifier) | Milk quality evaluation using XGBoost. |
-| [**Gradient Boosting Mushroom Classification**](./Classification/Gradient-Boosting-Mushroom-Classification-Classifier) | Identifying poisonous mushrooms using Gradient Boosting. |
-| [**Naive Bayes Fake News Detector**](./Classification/Naive-Bayes-Fake-News-Detector-Classification) | Fake news detection using Naive Bayes. |
-| [**Multinomial Naive Bayes SMS Spam Prediction**](./Classification/Multinomial-Naive-Bayes-SMS-Spam-Prediction-Classification) | Spam filtering using Multinomial Naive Bayes. |
-| [**Naive Bayes Tennis Play Predictor**](./Classification/Naive-Bayes-Tennis-Play-Predictor-Classification) | Predicting tennis playability based on weather using Naive Bayes. |
-| [**Logistic Regression Heart Disease Prediction**](./Classification/Logistic-Regression-Heart-Disease-Prediction) | Heart disease risk assessment using Logistic Regression. |
-
-### 📈 Regression
-| Project | Description / Algorithm |
-|---|---|
-| [**Random Forest Energy Efficiency Prediction**](./Regression/RandomForest-Energy-Efficiency-Prediction-Regressor) | Energy consumption predicting using Random Forest Regressor. |
-| [**XGBoost House Price Prediction**](./Regression/XGBoost-House-Price-Prediction-Regressor) | Real estate price forecasting using XGBoost. |
-| [**Lasso Linear Regression**](./Regression/Lasso-Linear-Regression) | Linear regression tasks utilizing L1/L2 regularization. |
-| [**Cross Validation Wine Quality Prediction**](./Regression/Cross-Validation-Wine-Quality-Prediction-Regressor) | Wine quality score prediction leveraging K-Fold Cross Validation. |
-| [**Gradient Boosting Diabetes Risk Predictor**](./Regression/Gradient-Boosting-Diabetes-Risk-Predictor-Regressor) | Diabetes progression forecasting with Gradient Boosting. |
-| [**Linear Regression Coffee Shop Sales**](./Regression/Linear-Regression-Coffee-Shop-Sales-Regressor) | Sales prediction utilizing Linear Regression. |
-
-### 🔵 Clustering
-| Project | Description / Algorithm |
-|---|---|
-| [**Hierarchical Clustering**](./Clustering/Hierarchical-Clustering) | Data segmentation using Hierarchical Clustering techniques. |
-| [**K-Means Customer Segmentation**](./Clustering/K-Means-Customer-Segmentation) | Grouping customers for targeted marketing utilizing K-Means. |
-| [**DBSCAN Wine Clustering**](./Clustering/DBSCAN-Wine-Clustering) | Density-based clustering of wine attributes using DBSCAN. |
-
-### ⚙️ Feature Selection & Processing
-| Project | Description / Algorithm |
-|---|---|
-| [**Feature Selection Filter Wrapper**](./Feature-Selection/Feature-Selection-Filter-Wrapper) | Feature engineering optimization utilizing Filter and Wrapper methods. |
+This repository contains a collection of Machine Learning algorithms organized by Supervised, Unsupervised Learning and ML Engineering & Optimization, along with links to respective GitHub repositories for each algorithm.
 
 ---
 
-## 🛠 Skills & Technologies Used
-- **Programming Languages:** Python
-- **Machine Learning Libraries:** scikit-learn, XGBoost
-- **Data Manipulation:** pandas, numpy
-- **Data Visualization:** matplotlib, seaborn, plotly
-- **Web Applications:** Streamlit, Flask
+## 📚 Learning Path
 
-_Thank you for visiting my portfolio. Feel free to explore the individual project folders for their source code, datasets, and documentation._
+### Foundation
+- What is AI? — High-level definitions of Artificial and Machine Learning
+- Real-world ML Applications — Industry use cases and examples
+
+### Mathematical Foundations
+- Linear Algebra — Vectors, Matrices, Transformations
+- Descriptive Statistics — Measures of central tendency and dispersion
+- Probability Basics — Conditional Probability, Bayes Theorem
+- NumPy Hands-on — Numerical computing fundamentals
+
+### Python Ecosystem
+- Python Libraries for ML — NumPy, Pandas, Matplotlib, Seaborn
+- EDA, Preprocessing and Visualization — Data cleaning and exploration techniques
+
+### Core ML Concepts
+- What is a Model? — Target vs features. Overfitting vs underfitting
+
+---
+
+## 🤖 ML Algorithms
+
+### Supervised Learning
+
+#### Regression
+- **Linear Regression** Theory & Hands-on | Evaluation Metrics | Project: Coffee Shop Sales Prediction via Streamlit Deployment -> [coffee-shop-sales](./Regression/Linear-Regression-Coffee-Shop-Sales-Regressor)
+- **Lasso & Ridge Regression** Theory + Hands-on | Evaluation Metrics | Mini-Project: Lasso Linear Regression -> [Lasso_Linear](./Regression/Lasso-Linear-Regression)
+- **Random Forest Regression** | Project: Energy Efficiency Prediction -> [Energy-Efficiency-Prediction](./Regression/RandomForest-Energy-Efficiency-Prediction-Regressor)
+- **XGBoost Regression** | Project: House Price Prediction -> [House-Price-Prediction](./Regression/XGBoost-House-Price-Prediction-Regressor)
+- **Gradient Boosting Regression** | Project: Diabetes Risk Prediction -> [Diabetes-Risk-Prediction](./Regression/Gradient-Boosting-Diabetes-Risk-Predictor-Regressor)
+- **Cross-Validation Regression** | Project: Wine Quality Prediction -> [Wine-Quality-Prediction](./Regression/Cross-Validation-Wine-Quality-Prediction-Regressor)
+
+#### Classification
+- **Logistic Regression** Evaluation Metrics | Mini-Project: Heart Disease Classification -> [Heart-Disease-Prediction](./Classification/Logistic-Regression-Heart-Disease-Prediction)
+- **K-Nearest Neighbors (KNN)** Theory + Hands-on | Mini-Project: Breast Cancer Classification -> [KNN-Breast-Cancer-Classification](./Classification/KNN-Breast-Cancer-Classification)
+- **Naive Bayes Algorithm** Theory + Hands-on | Mini-Project: SMS Spam Classifier + Fake News Detector + Tennis Play Predictor -> [SMS-Spam-Prediction](./Classification/Multinomial-Naive-Bayes-SMS-Spam-Prediction-Classification) | [Fake-News-Detector](./Classification/Naive-Bayes-Fake-News-Detector-Classification) | [Tennis-Play-Predictor](./Classification/Naive-Bayes-Tennis-Play-Predictor-Classification)
+- **Decision Trees** Gini, Entropy + Hands-on | Mini-Project: Movie Interest Predictor + Pizza Predictor -> [Movie-Interest-Predictor](./Classification/Decision-Tree-Movie-Interest-Predictor-Classifier) | [Pizza-Predictor](./Classification/Decision-Tree-Pizza-Predictor-Classifier)
+- **Random Forest** Ensemble Learning | Project: Employee Performance Rating -> [Employee-Performance-Classifier](./Classification/RandomForest-Employee-Performance-Classifier)
+- **Support Vector Machine (SVM)** Theory + Hands-on | Mini-Project: Digit Recognition -> [SVM-Digit-Predictor](./Classification/SVM-Digit-Predictor)
+- **Gradient Boosting** Theory + Hands-on | Mini-Project: Mushroom Classification -> [Mushroom-Classification-Classifier](./Classification/Gradient-Boosting-Mushroom-Classification-Classifier)
+- **XGBoost Algorithm** Theory + Hands-on | Project: Milk Quality Prediction -> [Milk-Quality-Classifier](./Classification/XGBoost-Milk-Quality-Classifier)
+
+### Unsupervised Learning
+
+#### Clustering
+- **K-Means Clustering** Elbow Method, Inertia | Project: Customer Segmentation -> [K-Means-Customer-Segmentation](./Clustering/K-Means-Customer-Segmentation)
+- **Hierarchical Clustering** -> [Hierarchical-Clustering](./Clustering/Hierarchical-Clustering)
+- **DBSCAN** Density-based clustering | Mini-Project: Wine Clustering Analysis -> [DBSCAN-Wine-Clustering](./Clustering/DBSCAN-Wine-Clustering)
+
+#### Dimensionality Reduction
+- **PCA (Principal Component Analysis)** Real-time Data application | Feature Extraction (*No specific project currently*)
+
+---
+
+## ⚙️ ML Engineering & Optimization
+
+### Model Optimization
+- Bias/Variance Tradeoff - Overfitting/Underfitting analysis
+
+### Cross Validation
+- Cross Validation (K-Fold) - Prevent Overfitting, Verify Generalization -> [Wine-Quality-Prediction-Regressor](./Regression/Cross-Validation-Wine-Quality-Prediction-Regressor)
+
+### Hyperparameter Tuning
+- GridSearch CV, RandomizedSearch CV - Best Parameter for ML Models
+
+### Feature Selection
+- Feature Methods - Filter, Wrapper Methods & Embedded Methods -> [Feature-Selection-Filter-Wrapper](./Feature-Selection/Feature-Selection-Filter-Wrapper)
+
+---
+
+## 🚀 Projects Portfolio
+
+| Project | Algorithm | Tech Stack | Repository |
+|---|---|---|---|
+| Coffee Shop Sales Prediction | Linear Regression | Python, Streamlit | [coffee-shop-sales](./Regression/Linear-Regression-Coffee-Shop-Sales-Regressor) |
+| House Price Prediction | XGBoost | Python, Streamlit | [House-Price-Prediction-Regressor](./Regression/XGBoost-House-Price-Prediction-Regressor) |
+| Heart Disease Prediction | Logistic Regression | Python, Flask | [Heart-Disease-Prediction](./Classification/Logistic-Regression-Heart-Disease-Prediction) |
+| Breast Cancer Classification | KNN | Python, Streamlit | [KNN-Breast-Cancer-Classification](./Classification/KNN-Breast-Cancer-Classification) |
+| Milk Quality Classifier | XGBoost | Python, Streamlit | [Milk-Quality-Classifier](./Classification/XGBoost-Milk-Quality-Classifier) |
+| SMS Spam Prediction | Naive Bayes | Python, Streamlit | [SMS-Spam-Prediction](./Classification/Multinomial-Naive-Bayes-SMS-Spam-Prediction-Classification) |
+| Fake News Detector | Naive Bayes / NLP | Python, Flask + Render | [Fake-News-Detector](./Classification/Naive-Bayes-Fake-News-Detector-Classification) |
+| Pizza Predictor | Decision Tree | Python, Flask | [Pizza-Predictor-Decision-Tree](./Classification/Decision-Tree-Pizza-Predictor-Classifier) |
+| Tennis Play Predictor | Decision Tree | Python, Streamlit | [Tennis-Play-Predictor](./Classification/Naive-Bayes-Tennis-Play-Predictor-Classification) |
+| Employee Performance Rating | Random Forest | Python, Streamlit | [RandomForest-employee-performance](./Classification/RandomForest-Employee-Performance-Classifier) |
+| Energy Efficiency Prediction | Random Forest | Python, Streamlit | [RandomForest-Energy-Efficiency-Prediction-Regressor](./Regression/RandomForest-Energy-Efficiency-Prediction-Regressor) |
+| SVM Digit Predictor | Support Vector Machine | Python, Jupyter | [SVM-Digit-Predictor](./Classification/SVM-Digit-Predictor) |
+| Mushroom Classification | Gradient Boosting | Python, Streamlit | [Mushroom-Classification-System](./Classification/Gradient-Boosting-Mushroom-Classification-Classifier) |
+| Diabetes Prediction | Gradient Boosting | Python, Streamlit | [Diabetes-Gradient-Boosting](./Regression/Gradient-Boosting-Diabetes-Risk-Predictor-Regressor) |
+| Wine Quality Prediction | Cross Validation | Python, Streamlit | [Wine-Quality-Prediction-Regressor](./Regression/Cross-Validation-Wine-Quality-Prediction-Regressor) |
+| Wine Clustering | DBSCAN | Python, Streamlit | [DBSCAN-Wine-Clustering](./Clustering/DBSCAN-Wine-Clustering) |
+| Customer Segmentation | K-Means Clustering | Python, Streamlit | [K-mean-Customer-Segmentation](./Clustering/K-Means-Customer-Segmentation) |
+| Hierarchical Clustering | Hierarchical Clustering | Python, Streamlit | [Hierarchical-Clustering](./Clustering/Hierarchical-Clustering) |
+| Movie Interest Predictor | Decision Tree | Python, Flask | [Movie-Interest-Predictor](./Classification/Decision-Tree-Movie-Interest-Predictor-Classifier) |
+| Lasso Linear Regression | Lasso / Ridge | Python, Jupyter | [Lasso_Linear](./Regression/Lasso-Linear-Regression) |
+| Feature Selection | Filter & Wrapper | Python, Streamlit | [Feature-Selection-Filter-Wrapper](./Feature-Selection/Feature-Selection-Filter-Wrapper) |
+
+---
+
+## 👨‍💻 About
+
+Connect to a network of machine learning specialists, data programming framework, broad datasets, and build modern ML projects — Discovering new concepts, required CV & AI domain related roles.
+
+Developer: Ayyapparaja V J  
+GitHub: [ayyapparaja227-arch](https://github.com/ayyapparaja227-arch)
