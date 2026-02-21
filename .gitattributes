@@ -1,8 +1,0 @@
-*.ipynb linguist-detectable=false
-*.py linguist-detectable=false
-*.css linguist-detectable=false
-*.html linguist-detectable=false
-*.js linguist-detectable=false
-*.csv linguist-detectable=false
-* linguist-vendored=true
-* linguist-documentation=true
